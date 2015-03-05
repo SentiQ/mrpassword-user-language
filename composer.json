@@ -1,0 +1,22 @@
+{
+	"name": "dalegroup/mrpassword-user-translations",
+	"description": "User translations for Password Manager",
+	"require": {
+		"php": "~5.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.5"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"mrpassword\\TranslationTest\\": "tests/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Frank Giesecke",
+			"email": "frank.giesecke@final-gene.de.de",
+			"role": "Developer"
+		}
+	]
+}
