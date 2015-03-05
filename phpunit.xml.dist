@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+	bootstrap="tests/bootstrap.php"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	forceCoversAnnotation="true"
+	beStrictAboutTestsThatDoNotTestAnything="true"
+	checkForUnintentionallyCoveredCode="true"
+	beStrictAboutOutputDuringTests="true"
+	beStrictAboutTestSize="true">
+	<php>
+		<ini name="memory_limit" value="-1"/>
+	</php>
+	<testsuites>
+		<testsuite name="Translation tests">
+			<directory>tests/Translation</directory>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist processUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">.</directory>
+		</whitelist>
+	</filter>
+</phpunit>
