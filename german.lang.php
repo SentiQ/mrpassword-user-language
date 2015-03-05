@@ -341,6 +341,7 @@ class lang
 		$language_array['Note: LDAP is required for this function to work.'] = 'Hinweis: LDAP wird für diese Funktion benötigt.';
 		$language_array['You cannot change the password for this account.'] = 'Das Passwort für dieses Konto kann nicht geändert werden.';
 		$language_array['Current Password Incorrect'] = 'Aktuelles Passwort stimmt nicht';
+		$language_array['Your database needs upgrading, please click here to continue.'] = 'Die Datenbank muss aktualisiert werden. Zum Fortfahren bitte hier klicken.';
 		$this->lang_array = $language_array;
 
 	}
